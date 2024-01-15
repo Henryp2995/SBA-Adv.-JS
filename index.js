@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
     const apiKey = '9a0eda7760a3661bb103a7b70777fda0';
     const defaultCity = 'Boston';
-
+// the api default temp is in kelvin, func below changes it to farenheit
     const kelvinToFahrenheit = (kelvin) => (kelvin - 273.15) * 9/5 + 32;
-
+// refreshes the temp without refreshing the whole site
     const updateWeather = async (city) => {
         try {
             const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`);
