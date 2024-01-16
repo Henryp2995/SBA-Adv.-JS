@@ -1,0 +1,34 @@
+Weather App
+
+Description
+A simple weather app that allows users to check the current weather for a specific city. The app uses the OpenWeatherMap API to fetch weather data.
+
+Features
+- Displays the current temperature and weather description.
+- Allows users to search for the weather in different cities.
+- Converts temperature from Celsius to Fahrenheit.
+- Auto-updates weather every minute.
+
+Getting Started
+1. Clone the repository to your local machine.
+
+Usage
+1. Enter the city name in the search bar.
+2. Click the "Search" button to view the weather for the specified city.
+3. The weather information will be displayed, including temperature and weather description.
+4. The temperature is initially displayed in Celsius; click the "Convert to Fahrenheit" button to convert.
+
+Files
+- `index.html`: The main HTML file for the application.
+- `styles.css`: The stylesheet for styling the HTML elements.
+- `index.js`: The JavaScript file containing the logic for fetching and displaying weather data.
+
+Languages Technologies Used
+- HTML
+- CSS
+- JavaScript
+- OpenWeatherMap API
+
+Sources
+- Weather data provided by OpenWeatherMap (https://openweathermap.org/).
+- Icons from Font Awesome (https://fontawesome.com/).
